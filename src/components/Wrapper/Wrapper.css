@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 200px auto 0;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+}
+
+.calculator-container {
+  margin-top: 2px;
+  border-radius: 0 0 30px 30px;
+  background-color: #4A4A4A;
+  padding: 10px;
+  display: grid;
+  grid-template: repeat(5, 80px)/repeat(4, 80px);
+  grid-gap: 6px;
+}/*# sourceMappingURL=Wrapper.css.map */
